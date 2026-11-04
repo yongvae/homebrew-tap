@@ -1,28 +1,28 @@
 class Agentstory < Formula
   desc "Lightweight agent-memory search: index and hand off sessions across coding agents"
   homepage "https://github.com/yongvae/agentstory"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yongvae/agentstory/releases/download/v0.3.0/agentstory-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0e6b17701a6fee8d15f745fc537ba4ea4dba8c2fcf00ad3dbc56ce8e98886f45"
+      url "https://github.com/yongvae/agentstory/releases/download/v0.3.1/agentstory-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e83ed93fd9b7ec82b86185c56c7407a1dd8b886b9110e7ab27bd5786bb639bcb"
     end
     on_intel do
-      url "https://github.com/yongvae/agentstory/releases/download/v0.3.0/agentstory-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "10fd21b9525d471c674d2d003fe5f969e841ba6629f555cec8976a0eb509b663"
+      url "https://github.com/yongvae/agentstory/releases/download/v0.3.1/agentstory-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e57a7f001b80d9bb1a73f02ceff64ce9ab175102c6abae3ccdf77949d2770622"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yongvae/agentstory/releases/download/v0.3.0/agentstory-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "257b345a7ba21e75b0f83326958555a6c03438dff63c21be6cef02b01d1b042c"
+      url "https://github.com/yongvae/agentstory/releases/download/v0.3.1/agentstory-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0d50a8ed5d2b1f6d00beb3be604b84e61f74de8f30cf5a8af4a6cc91fdd288dd"
     end
     on_intel do
-      url "https://github.com/yongvae/agentstory/releases/download/v0.3.0/agentstory-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a38cfa801353f18eda92e16100b3cdb0cb6d0069e392cf38724e79fd89c613dd"
+      url "https://github.com/yongvae/agentstory/releases/download/v0.3.1/agentstory-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d9b4a890c65627fcc0c3c3346bee34b0c67cbc210c55dc15496f1a04edba60c"
     end
   end
 
